@@ -29,7 +29,7 @@ int cube(int i){
 }
 
 int inverse(int i) {
-	if (num ==0) {
+	if (i ==0) {
 		printf("cannot divide by zero\n");
 		return 0; } 
 	return 1/i; 
